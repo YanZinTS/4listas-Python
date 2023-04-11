@@ -1,14 +1,14 @@
-numero = int(input("Digite um número inteiro: "))
+num = int(input("Digite um número inteiro: "))
 
-if numero < 2:
+if num < 2:
     print("O número não é primo")
 else:
-    eh_primo = True
-    for i in range(2, numero):
-        if numero % i == 0:
+    primo = True
+    for i in range(2, num):
+        if num % i == 0:
             eh_primo = False
             break
-    if eh_primo:
+    if primo:
         print("O número é primo")
     else:
         print("O número não é primo")

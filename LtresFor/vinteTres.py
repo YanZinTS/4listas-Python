@@ -1,14 +1,14 @@
 turmas = int(input("Quantidade de turmas: "))
-total_alunos = 0
+talunos = 0
 
 for i in range(1, turmas+1):
     while True:
-        qtd_alunos = int(input(f"Quantidade de alunos na turma {i}: "))
-        if qtd_alunos > 0 and qtd_alunos <= 40:
-            total_alunos += qtd_alunos
+        qtdalunos = int(input(f"Quantidade de alunos na turma {i}: "))
+        if qtdalunos > 0 and qtdalunos <= 40:
+            talunos += qtdalunos
             break
         else:
-            print("Quantidade de alunos inválida. Digite um número entre 1 e 40.")
+            print("A quantidade de alunos não está certo, digite um número entre 1 e 40")
 
-media = total_alunos / turmas
-print(f"Média de alunos por turma: {media:.2f}")
+media = talunos / turmas
+print(f"Média de alunos por turma é: {media:.2f}")

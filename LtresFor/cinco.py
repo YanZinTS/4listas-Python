@@ -1,9 +1,9 @@
 while True:
-    nome_usuario = input("Digite o nome de usuário: ")
+    nomeu = input("Digite o nome de usuário: ")
     senha = input("Digite a senha: ")
 
-    if senha == nome_usuario:
-        print("A senha não pode ser igual ao nome de usuário. Tente novamente.")
+    if senha == nomeu:
+        print("A senha não pode ser igual ao nome de usuário, escreva denovo")
     else:
-        print("Login realizado com sucesso!")
+        print("Login realizado")
         break 

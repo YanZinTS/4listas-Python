@@ -1,11 +1,11 @@
-n = int(input("Digite o número de pessoas na turma: "))
+num = int(input("Digite o número de pessoas da turma: "))
 idades = []
 
-for i in range(n):
+for i in range(num):
     idade = int(input(f"Digite a idade da pessoa {i+1}: "))
     idades.append(idade)
 
-media = sum(idades) / n
+media = sum(idades) / num
 
 if media >= 0 and media <= 25:
     print("A turma é jovem")

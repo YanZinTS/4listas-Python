@@ -4,5 +4,5 @@ altura = float(input("Digite a medida da altura do retângulo: "))
 perimetro = 2 * (base + altura)
 area = base * altura
 
-print(f"Perímetro: {perimetro}")
-print(f"Área: {area}")
+print(f"O perímetro é: {perimetro}")
+print(f"A área é: {area}")

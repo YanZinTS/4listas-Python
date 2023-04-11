@@ -8,5 +8,5 @@ for i in range(10):
     else:
         impares += 1
 
-print("Quantidade de números pares:", pares)
-print("Quantidade de números ímpares:", impares)
+print("A quantidade de números pares é de:", pares)
+print("A quantidade de números ímpares é de:", impares)

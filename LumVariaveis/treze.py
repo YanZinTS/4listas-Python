@@ -1,6 +1,6 @@
 razao = float(input("Digite a razão da PG: "))
-primeiro_termo = float(input("Digite o primeiro termo da PG: "))
+primeirotermo = float(input("Digite o primeiro termo da PG: "))
 
-decimo_termo = primeiro_termo * razao ** 9
+decimotermo = primeirotermo * razao ** 9
 
-print(f"O décimo termo da PG é: {decimo_termo}")
+print(f"O décimo termo da PG é: {decimotermo}")

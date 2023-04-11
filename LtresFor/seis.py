@@ -17,7 +17,7 @@ while True:
     if salario > 0:
         break
     else:
-        print("O salário deve ser maior que zero!")
+        print("Digete um número maior que 0")
         
 while True:
     sexo = input("Digite o seu sexo (f/m): ").lower()
@@ -33,4 +33,4 @@ while True:
     else:
         print("O estado civil deve ser 's', 'c', 'v' ou 'd'!")
         
-print("Todas as informações foram validadas!")
+print("Todas as informações foram registradas")

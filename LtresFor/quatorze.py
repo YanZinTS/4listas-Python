@@ -12,6 +12,6 @@ for i in range(n):
         maior = num
     soma += num
 
-print("Menor valor:", menor)
-print("Maior valor:", maior)
-print("Soma dos valores:", soma)
+print("O menor valor é:", menor)
+print("O maior valor é:", maior)
+print("A soma dos valores é:", soma)

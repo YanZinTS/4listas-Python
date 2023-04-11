@@ -9,4 +9,4 @@ elif idade > 20 and idade <= 50:
 elif idade > 50:
     print("Idoso")
 else:
-    print("Idade inválida")
+    print("A idade é inválida")

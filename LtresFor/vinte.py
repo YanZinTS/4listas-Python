@@ -1,4 +1,4 @@
-n = int(input("Quantas notas você deseja calcular a média? "))
+n = int(input("Quantas notas você deseja calcular a média: "))
 soma = 0
 
 for i in range(n):
@@ -7,4 +7,4 @@ for i in range(n):
 
 media = soma / n
 
-print("A média das notas é: {:.2f}".format(media))
+print("A média das notas é de: {:.2f}".format(media))

@@ -1,9 +1,9 @@
-numero_conta = input("Digite o número da conta corrente de três dígitos: ")
+nconta = input("Digite o número de três dígitos: ")
 
-inverso = numero_conta[::-1]
+inv = nconta[::-1]
 
-soma = int(numero_conta) + int(inverso)
+soma = int(nconta) + int(inv)
 
-digito_verificador = sum(int(digito) * (i+1) for i, digito in enumerate(str(soma))) % 10
+verificador = sum(int(digito) * (i+1) for i, digito in enumerate(str(soma))) % 10
 
-print("O dígito verificador da conta corrente é:", digito_verificador)
+print("O dígito verificador da conta corrente é:", verificador)

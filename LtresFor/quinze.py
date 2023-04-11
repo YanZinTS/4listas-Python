@@ -3,11 +3,11 @@ maior = 0
 soma = 0
 
 while True:
-    num = int(input("Digite um número entre 0 e 1000 (ou digite -1 para encerrar): "))
+    num = int(input("Digite um número entre 0 e 1000: "))
     if num == -1:
         break
     elif num < 0 or num > 1000:
-        print("Número inválido! Digite um número entre 0 e 1000.")
+        print("Número inválido, digite um número entre 0 e 1000")
         continue
     else:
         if num < menor:

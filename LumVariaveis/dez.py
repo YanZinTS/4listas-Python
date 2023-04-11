@@ -1,6 +1,6 @@
-diagonal_menor = float(input("Digite a medida da diagonal menor do losango: "))
-diagonal_maior = float(input("Digite a medida da diagonal maior do losango: "))
+diagmenor = float(input("Digite a medida da diagonal menor: "))
+diagmaior = float(input("Digite a medida da diagonal maior: "))
 
-area = (diagonal_menor * diagonal_maior) / 2
+a = (diagmenor * diagmaior) / 2
 
-print(f"Área: {area}")
+print(f"A área é: {a}")

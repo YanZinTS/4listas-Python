@@ -15,14 +15,14 @@ votos = {
 }
 
 while True:
-    voto = int(input("Digite o número do candidato (ou 666 para encerrar a votação): "))
+    voto = int(input("Digite o número do candidato: "))
     if voto == 666:
         break
     if voto in votos:
         votos[voto] += 1
     else:
-        print("Candidato inválido.")
+        print("O candidato não existe")
 
-print("Resultado da votação:")
+print("O resultado da votação é:")
 for candidato, votos_recebidos in votos.items():
     print(f"{candidatos[candidato]}: {votos_recebidos} votos")

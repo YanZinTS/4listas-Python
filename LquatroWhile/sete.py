@@ -1,13 +1,13 @@
-altura_j = 1.50 
-altura_a = 1.10 
-taxa_cresc_j = 0.02 
-taxa_cresc_a = 0.03  
+altj = 1.50 
+alta = 1.10 
+taxacrescj = 0.02 
+taxacresca = 0.03  
 anos = 0 
 
-while altura_a <= altura_j:
+while alta <= altj:
     anos += 1
-    altura_j += taxa_cresc_j
-    altura_a += taxa_cresc_a
-    print(f"Ano {anos}: Josberanilson tem {altura_j:.2f}m e Apricoçildo tem {altura_a:.2f}m")
+    altj += taxacrescj
+    alta += taxacresca
+    print(f"Ano {anos}: Josberanilson tem {altj:.2f}m e Apricoçildo tem {alta:.2f}m")
 
 print(f"Apricoçildo ultrapassou Josberanilson após {anos} anos.")

@@ -8,5 +8,5 @@ area = PI * raio**2
 
 circunferencia = 2 * PI * raio
 
-print(f"Área: {area:.2f}")
-print(f"Circunferência: {circunferencia:.2f}")
+print(f"A área é: {area:.2f}")
+print(f"A circunferência é: {circunferencia:.2f}")
