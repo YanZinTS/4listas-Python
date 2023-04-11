@@ -1,4 +1,4 @@
-candidatos = [0, 0, 0] # lista com o número de votos de cada candidato
+candidatos = [0, 0, 0] #lista com o número de votos de cada candidato
 
 n_eleitores = int(input("Digite o número total de eleitores: "))
 

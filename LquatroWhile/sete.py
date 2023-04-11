@@ -1,8 +1,8 @@
-altura_j = 1.50  # altura inicial de Josberanilson em metros
-altura_a = 1.10  # altura inicial de Apricoçildo em metros
-taxa_cresc_j = 0.02  # taxa de crescimento de Josberanilson em metros por ano
-taxa_cresc_a = 0.03  # taxa de crescimento de Apricoçildo em metros por ano
-anos = 0  # contador de anos
+altura_j = 1.50 
+altura_a = 1.10 
+taxa_cresc_j = 0.02 
+taxa_cresc_a = 0.03  
+anos = 0 
 
 while altura_a <= altura_j:
     anos += 1

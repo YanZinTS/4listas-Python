@@ -8,7 +8,6 @@ me = float(input("Digite a média dos exercícios: "))
 # Calcular a média de aproveitamento
 ma = (nota1 + nota2*2 + nota3*3 + me) / 7
 
-# Definir o conceito e resultado
 if ma >= 9:
     conceito = "A"
     resultado = "APROVADO"
@@ -25,7 +24,6 @@ else:
     conceito = "E"
     resultado = "REPROVADO"
 
-# Imprimir os resultados
 print("Aluno:", id_aluno)
 print("Média de aproveitamento:", ma)
 print("Conceito:", conceito)
